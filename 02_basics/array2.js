@@ -4,3 +4,6 @@ const vegitable=["patato", "tamato", "ladyfingure", "cabbage"]
 // console.log(fruit)
  const veg=fruit.concat(vegitable)
  console.log(veg)
+
+ console.log(Array.from("Priyanshu"))
+ console.log(Array.isArray("Priyanshu"))
