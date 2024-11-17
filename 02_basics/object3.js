@@ -6,5 +6,5 @@ const course={
 
 }
 
-const {courseIn:inst}=course//destructuring the object
+const {courseIn:inst}=course//de-structuring the object
 console.log(inst)

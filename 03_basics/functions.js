@@ -16,15 +16,15 @@ console.log(ans)
 
 function userLogin(username){
     if(!username){
-        console.log("Enter the user name ")
+        // console.log("Enter the user name ")
     }
     return `${username} just login`
 }
 
-console.log(userLogin("dubey"))
+// console.log(userLogin("dubey"))
 
 
-function calculate(...number1){//"..."it is rest as well as spread operstor depend upon the usecase 
+function calculate(...number1){//"..."it is rest as well as spread operator depend upon the usecase 
     return number1
 
 }
@@ -36,7 +36,7 @@ console.log(calculate(200, 300, 500))
 // }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`);
+    // console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`);
 
 }
 // handleObject(user) 

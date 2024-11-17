@@ -1,16 +1,16 @@
 const arr=[1, 2, 3, 4, 8, 5]
 console.log(arr[0])
 
-//Array Method
+// Array Method
 
-// arr.push(23)
-// console.log(arr)
-// arr.unshift(3)
-// console.log(arr)
-// arr.shift()
-// console.log(arr)
-// arr.shift()
-// console.log(arr)
+arr.push(23)
+console.log(arr)
+arr.unshift(3)
+console.log(arr)
+arr.shift()
+console.log(arr)
+arr.shift()
+console.log(arr)
 
 console.log(arr.includes(7))
 console.log(arr.indexOf(10))
@@ -30,3 +30,4 @@ console.log(newArray)
 console.log(arr)
 const newArray2=arr.splice(1, 3)
 console.log(newArray2)
+console.log(arr)
