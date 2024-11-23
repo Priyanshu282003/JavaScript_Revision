@@ -7,6 +7,7 @@
 </head>
 <body>
     <div class="parent">
+        <!-- this is to check the childNodes only this line of code  -->
 
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
@@ -17,5 +18,22 @@
 
 <script>
     const parent=document.querySelector('.parent')
+     // console.log(parent)
+    // console.log(parent.children)
+    // console.log(parent.children[0].innerHTML)
+    for (let index = 0; index < parent.children.length; index++) {
+        // console.log(parent.children[index].innerHTML)
+        
+    }
+
+    // parent.children[1].style.color="red"
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+    const dayOne=document.querySelector('.day')
+    // console.log(dayOne.innerHTML)
+    // console.log(dayOne.parentElement.innerHTML)
+    // console.log(dayOne.nextElementSibling.innerHTML)
+    console.log("NODES:", parent.childNodes)
 </script>
 </html>
